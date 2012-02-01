@@ -9,6 +9,10 @@
     "url": "git://github.com/diy/graffle-json.git"
   },
   "main": "./lib/index.js",
+  "bin": {
+    "jgraffle": "./bin/index.js",
+    "graffle-json": "./bin/index.js"
+  },
   "scripts": {
     "test": "vows test/*"
   },
