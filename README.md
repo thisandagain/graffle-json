@@ -13,5 +13,39 @@ graffle.convert('path/to/file.oo3', function (err, obj) {
 });
 ````
 
+## Example Output
+```javascript
+[
+    {
+        value: 'It',
+        children: [
+            {
+                value: 'To'
+            },
+            {
+                value: 'Build'
+            },
+            {
+                value: 'Nested'
+            },
+            {
+                value: 'Heirarchical',
+                children: [
+                    {
+                        value: 'Data'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        value: 'Is'  
+    },
+    {
+        value: 'Fun'
+    }
+]
+````
+
 ## Testing
 	vows test/*
