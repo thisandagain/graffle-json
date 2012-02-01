@@ -2,7 +2,7 @@
   "author": "DIY, Co. <help@diy.org> (http://diy.org)",
   "name": "graffle-json",
   "description": "OmniGraffle .OO3 to structured JSON converter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/diy/graffle-json",
   "repository": {
     "type": "git",
