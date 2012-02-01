@@ -29,7 +29,7 @@ graffle.convert('path/to/file.oo3', function (err, obj) {
                 value: 'Nested'
             },
             {
-                value: 'Heirarchical',
+                value: 'Hierarchical',
                 children: [
                     {
                         value: 'Data'
