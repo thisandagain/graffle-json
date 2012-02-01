@@ -26,32 +26,50 @@ jgraffle ./path/to/file.oo3
 ```javascript
 [
     {
-        value: 'It',
-        children: [
+        "value": "This",
+        "children": [
             {
-                value: 'To'
+                "value": "As"
             },
             {
-                value: 'Build'
+                "value": "A"
             },
             {
-                value: 'Nested'
+                "value": "Jumping"
             },
             {
-                value: 'Hierarchical',
-                children: [
+                "value": "Rope",
+                "children": [
                     {
-                        value: 'Data'
+                        "value": "You"
+                    },
+                    {
+                        "value": "Prob'ly'"
+                    },
+                    {
+                        "value": "Think"
+                    },
+                    {
+                        "value": "That"
+                    },
+                    {
+                        "value": "I'm"
+                    },
+                    {
+                        "value": "A"
+                    },
+                    {
+                        "value": "Dope"
                     }
                 ]
             }
         ]
     },
     {
-        value: 'Is'  
+        "value": "Started"
     },
     {
-        value: 'Fun'
+        "value": "Out"
     }
 ]
 ````
