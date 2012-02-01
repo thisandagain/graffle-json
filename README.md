@@ -6,7 +6,7 @@
 
 ## Basic Use
 ```javascript
-var graffle = require(graffle-json);
+var graffle = require('graffle-json');
 
 graffle.convert('path/to/file.oo3', function (err, obj) {
 	console.dir(obj);	// Win!

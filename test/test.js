@@ -12,10 +12,14 @@ var suite   = vows.describe('Graffle-JSON');
  */
 suite.addBatch({
 
-    'Parse ': {
+    'Parse': {
 
         topic: function() {
             graffle.convert('./example/example.oo3', this.callback);
+        },
+
+        'no error': function (err, obj) {
+            assert.isNull(err);  
         },
 
         'is an object': function (err, obj) {
