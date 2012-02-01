@@ -66,6 +66,10 @@ suite.addBatch({
             assert.equal(obj[0].children[0].value, "To");
         },
 
+        'equals expected result': function (err, obj) {
+            assert.equal(obj[0].children[0].children[2].children[1].children[0].value, "Hole");
+        }
+
     },
 
 })
