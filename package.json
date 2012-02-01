@@ -1,0 +1,26 @@
+{
+  "author": "DIY, Co. <help@diy.org> (http://diy.org)",
+  "name": "graffle-json",
+  "description": "OmniGraffle .OO3 to structured JSON converter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/diy/graffle-json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diy/graffle-json.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "vows test/*"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "async": "=0.1.15",
+    "xml2js": "=0.1.13"
+  },
+  "devDependencies": {
+    "vows": "=0.6.1",
+  },
+  "optionalDependencies": {}
+}
