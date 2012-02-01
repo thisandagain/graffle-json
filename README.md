@@ -13,6 +13,15 @@ graffle.convert('path/to/file.oo3', function (err, obj) {
 });
 ````
 
+## Binary Use
+```javascript
+npm install -g graffle-json
+````
+
+```javascript
+jgraffle ./path/to/file.oo3
+````
+
 ## Example Output
 ```javascript
 [
