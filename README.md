@@ -18,6 +18,7 @@ graffle.convert('path/to/file.oo3', function (err, obj) {
 npm install -g graffle-json
 ````
 
+
 ```javascript
 jgraffle ./path/to/file.oo3
 ````
