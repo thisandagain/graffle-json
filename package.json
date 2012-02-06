@@ -1,12 +1,12 @@
 {
-  "author": "DIY, Co. <help@diy.org> (http://diy.org)",
+  "author": "Andrew Sliwinski <andrew@diy.org> (http://diy.org)",
   "name": "graffle-json",
   "description": "OmniGraffle .OO3 to structured JSON converter",
-  "version": "0.0.2",
-  "homepage": "https://github.com/diy/graffle-json",
+  "version": "0.0.3",
+  "homepage": "https://github.com/thisandagain/graffle-json",
   "repository": {
     "type": "git",
-    "url": "git://github.com/diy/graffle-json.git"
+    "url": "git://github.com/thisandagain/graffle-json.git"
   },
   "main": "./lib/index.js",
   "bin": {
