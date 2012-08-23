@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/thisandagain/graffle-json.png)](http://travis-ci.org/thisandagain/graffle-json)
 # Graffle-JSON
 #### OmniGraffle .OO3 to structured JSON converter
 
